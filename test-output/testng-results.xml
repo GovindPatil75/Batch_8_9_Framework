@@ -1,97 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-15T20:12:41 IST" name="LoginSuite" finished-at="2022-05-15T20:13:45 IST" duration-ms="64174">
+  <suite started-at="2022-05-16T08:08:29 IST" name="Suite" finished-at="2022-05-16T08:09:17 IST" duration-ms="48674">
     <groups>
     </groups>
-    <test started-at="2022-05-15T20:12:41 IST" name="LoginTest_chrome" finished-at="2022-05-15T20:13:12 IST" duration-ms="31160">
-      <class name="com.Test.Test_1">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Test.Test_1@51fadaff]" started-at="2022-05-15T20:12:41 IST" name="setUp" finished-at="2022-05-15T20:12:44 IST" duration-ms="3224" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyTest_1()[pri:0, instance:com.Test.Test_1@51fadaff]" started-at="2022-05-15T20:12:44 IST" name="verifyTest_1" finished-at="2022-05-15T20:12:56 IST" duration-ms="11922" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTest_1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.Test_1@51fadaff]" started-at="2022-05-15T20:12:56 IST" name="tearDown" finished-at="2022-05-15T20:12:57 IST" duration-ms="833" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Test.Test_1@51fadaff]" started-at="2022-05-15T20:12:57 IST" name="setUp" finished-at="2022-05-15T20:12:59 IST" duration-ms="2584" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyTest_2()[pri:0, instance:com.Test.Test_1@51fadaff]" started-at="2022-05-15T20:12:59 IST" name="verifyTest_2" finished-at="2022-05-15T20:13:11 IST" duration-ms="11735" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTest_2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.Test_1@51fadaff]" started-at="2022-05-15T20:13:11 IST" name="tearDown" finished-at="2022-05-15T20:13:12 IST" duration-ms="813" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.Test.Test_1 -->
-    </test> <!-- LoginTest_chrome -->
-    <test started-at="2022-05-15T20:13:12 IST" name="LoginTest_Edge" finished-at="2022-05-15T20:13:45 IST" duration-ms="32651">
-      <class name="com.Test.Test_1">
-        <test-method is-config="true" signature="BS()[pri:0, instance:com.Test.Test_1@61fe30]" started-at="2022-05-15T20:12:40 IST" name="BS" finished-at="2022-05-15T20:12:41 IST" duration-ms="639" status="PASS">
+    <test started-at="2022-05-16T08:08:29 IST" name="Test" finished-at="2022-05-16T08:09:17 IST" duration-ms="48674">
+      <class name="com.Test.Test_4_brokenlink">
+        <test-method is-config="true" signature="BS()[pri:0, instance:com.Test.Test_4_brokenlink@62010f5c]" started-at="2022-05-16T08:08:28 IST" name="BS" finished-at="2022-05-16T08:08:29 IST" duration-ms="641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BS -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Test.Test_1@61fe30]" started-at="2022-05-15T20:13:12 IST" name="setUp" finished-at="2022-05-15T20:13:15 IST" duration-ms="3276" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Test.Test_4_brokenlink@62010f5c]" started-at="2022-05-16T08:08:29 IST" name="setUp" finished-at="2022-05-16T08:08:33 IST" duration-ms="4308" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Edge]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyTest_1()[pri:0, instance:com.Test.Test_1@61fe30]" started-at="2022-05-15T20:13:15 IST" name="verifyTest_1" finished-at="2022-05-15T20:13:27 IST" duration-ms="11753" status="PASS">
+        <test-method signature="verifybrokenLink()[pri:0, instance:com.Test.Test_4_brokenlink@62010f5c]" started-at="2022-05-16T08:08:33 IST" name="verifybrokenLink" finished-at="2022-05-16T08:09:17 IST" duration-ms="43531" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTest_1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.Test_1@61fe30]" started-at="2022-05-15T20:13:27 IST" name="tearDown" finished-at="2022-05-15T20:13:28 IST" duration-ms="890" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Test.Test_1@61fe30]" started-at="2022-05-15T20:13:28 IST" name="setUp" finished-at="2022-05-15T20:13:31 IST" duration-ms="3092" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyTest_2()[pri:0, instance:com.Test.Test_1@61fe30]" started-at="2022-05-15T20:13:31 IST" name="verifyTest_2" finished-at="2022-05-15T20:13:44 IST" duration-ms="12696" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTest_2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.Test_1@61fe30]" started-at="2022-05-15T20:13:44 IST" name="tearDown" finished-at="2022-05-15T20:13:45 IST" duration-ms="938" status="PASS">
+        </test-method> <!-- verifybrokenLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.Test_4_brokenlink@62010f5c]" started-at="2022-05-16T08:09:17 IST" name="tearDown" finished-at="2022-05-16T08:09:17 IST" duration-ms="802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.Test.Test_1 -->
-    </test> <!-- LoginTest_Edge -->
-  </suite> <!-- LoginSuite -->
+      </class> <!-- com.Test.Test_4_brokenlink -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -1,5 +1,10 @@
 package com.Utility;
 
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+
 import org.openqa.selenium.WebElement;
 
 import com.aventstack.extentreports.ExtentTest;
@@ -30,4 +35,30 @@ public class Library {
 		
 		}
 	}
+	
+	public static void verifybrokenlink(String url1) throws IOException {
+		
+		URL url=new URL(url1);
+		HttpURLConnection httpurl=(HttpURLConnection) url.openConnection();
+		httpurl.setConnectTimeout(4000);
+		httpurl.connect();
+		
+		if(httpurl.getResponseCode()==200) {
+			test.log(Status.PASS, url+"=="+httpurl.getResponseMessage());
+		}else {
+			test.log(Status.FAIL, "Link broken");
+		}
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
