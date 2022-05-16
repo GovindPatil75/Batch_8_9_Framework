@@ -9,6 +9,8 @@ public class Test_3 extends BaseClass{
 	@Test
 	public void test_3() {
 		System.out.println("Test 3");
+		System.out.println("Test 4");
+		
 	}
 
 }
